@@ -16,15 +16,12 @@ function findLongestWord(incoming_array) {
 
     var word = incoming_array[counter];
     console.log('new word length: ' + word.length);
-
     if (word.length > biggest_length_so_far) {
       console.log('if-statement triggered!');
       // do what?
       biggest_length_so_far = word.length;
     }
-
     console.log('new value of biggest_length_so_far: ' + biggest_length_so_far);
-
   }
   return biggest_length_so_far;
 }
