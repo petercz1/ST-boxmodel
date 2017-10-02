@@ -6,7 +6,6 @@ var answer1 = findLongestWord(words);
 var myResultsTag = document.querySelector('#results');
 myResultsTag.innerHTML = answer1; // place your function output here!
 
-
 function findLongestWord(incoming_array) {
   // write code in here!
   var biggest_length_so_far = 0;
