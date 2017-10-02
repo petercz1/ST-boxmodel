@@ -1,5 +1,4 @@
 console.log('loaded js!');
-
 var words = ['and', 'be', 'this'];
 var answer1 = findLongestWord(words);
 
